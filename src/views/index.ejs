@@ -35,11 +35,10 @@
         </div>
 
         <div class="table-responsive">
-            <table class="table table-bordered table-hover">
+            <table class="table table-bordered table-hover" style="background-color: orange;">
                 <thead>
                     <tr>
                         <th scope="col">#</th>
-                        
                         <th scope="col">Nombre</th>
                         <th scope="col">Descripcion</th>
                         <th scope="col">Cantidad</th>
@@ -49,9 +48,8 @@
                 </thead>
                 <tbody>
                     <% for(var i = 0; i < datos.length; i++){  %>
-                        <tr>
+                        <tr style="background-color: orange;">
                             <td><%= i+1  %></td>
-                            
                             <td><%= datos[i].Nombre  %></td>
                             <td><%= datos[i].Descripcion  %></td>
                             <td><%= datos[i].Cantidad  %></td>
